@@ -1,0 +1,91 @@
+body{
+	height: 400px; width: 981px;
+}
+h2{
+	text-align:center; position: relative; font-family: Georgia, serif;
+}
+h3{
+	text-decoration: underline;
+}
+input.submit{
+  background-color: #3399FF;
+  moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #3399FF;
+  padding: 5px;
+  color:white;
+  font-family: Georgia, serif;
+}
+input.submit:hover {opacity: 0.7; }
+
+input.searchbutton{
+  height: 23px;
+  background-color: #3399FF;
+  moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #3399FF;
+  padding: 5px;
+  color:white;
+  font-family: Georgia, serif;
+}
+input.searchbutton:hover {opacity: 0.7; }
+
+input.linesbutton{
+  height: 25px;
+  background-color: #3399FF;
+  moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #3399FF;
+  padding: 5px;
+  color:white;
+  font-family: Georgia, serif;
+}
+input.linesbutton:hover {opacity: 0.7; }
+
+#lines,#nooflines{ font-family: Georgia, serif; }
+
+#inputfield{ width:152px; }
+
+input.totalpages,input.pageno{ width:55px; }
+
+div.leftpane{
+	background-image:url(page_bg.png);
+	background-repeat:repeat-x;
+	position:absolute; height:auto; width:16%; 
+	top:0px; left:0px; bottom:0px;
+    overflow-y: scroll;  
+}
+div.leftpane_logo{
+	position:absolute; top:10px; left:15px; color:#000099;
+}
+div.leftpane_refresh{
+	position:absolute; top:80px; left:15px; font-family: Georgia, serif;
+}
+div.prevday{
+	position:absolute; top:110px; left:15px; font-family: Georgia, serif;
+}
+div.stagelistdiv{
+	position:absolute; top:190px; left:15px; 
+}
+p.stagelist{
+	text-align:left; 
+}
+div.header{
+	background-image:url(page_bg.png);
+	background-repeat:repeat-x;
+	position:absolute; height:auto; width:84%; 
+    top:0px; right:0px;
+}
+div.nooflines{
+	position:absolute; height:auto; width:84%; 
+	top:60px; right:0px; 
+}
+div.logcontent{
+	position:absolute; height:auto; width:84%; 
+	top:90px; right:0px; bottom:0px; 
+	font-size:14;
+	overflow-y: scroll;
+}
+#loading{
+	background: url(loader.gif) no-repeat;
+}
